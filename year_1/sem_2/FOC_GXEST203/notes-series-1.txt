@@ -1,0 +1,133 @@
+ASCII
+- 65 (A) 97(a) 48 (0)
+- American Standard Code for Information Interchange
+- 7 bit representation, 127 unique characters. 0 - 126
+
+BOOT-ing
+- Boot Process : Sequence of steps required for a computer to load the OS to memory and prepare it for user interaction after powering it on. 
+
+
+
+Booting is of two types:
+
+Cold/HARD booting: When the computer is started as a fresh start after a sufficient long time like after being shut down last time. 
+
+Warm/SOFT booting: When the computer become restarted in between any processing. This restart maybe done by user itself or on the system demand like new installation of hardware or software, system crash etc. 
+
+Important terms to understand:
+
+BIOS: Basic Input Output System, run the boot process.
+CMOS: complementary metal-oxide semiconductor (stores system time, boot device record, bios settings)
+UEFI: Unified Extensible Firmware Interface
+POST (Power On Self-Test): Check the all hardware and their functionality.
+Boot Loader: Load the address of Operating System in CPU and RAM.(GRUB in Linux, WINDOWS boot manager in windows)
+Boot Device: The device where OS rests.
+Master Boot Record: The point in boot device where the OS rests.
+
+
+What is BIOS:
+Basic Input Output System, is a chip located inside ROM, which holds some programs.
+These programs are used to start the computer even without any OS.
+This BIOS is responsible for successfully completion of the Boot or Boot-strap process.
+
+Booting
+
+The boot process is a series of steps that a computer system undergoes to start the operating system after being powered on. Here's an overview of each step involved:
+
+1. Power-On Self-Test (POST):
+   - After pressing the power button, the computer's power supply unit (PSU) performs a self-test to ensure it's functioning correctly. Once verified, the PSU sends a signal to the motherboard, prompting the CPU to initiate the boot sequence.
+   - The CPU then runs the BIOS firmware, which conducts the POST to check essential hardware components like memory, keyboard, and storage devices. If any critical hardware is missing or malfunctioning, the BIOS will halt the boot process and typically emit a series of beeps to indicate the error.
+
+2. Loading BIOS Settings:
+   - The BIOS reads configuration settings stored in the CMOS (Complementary Metal-Oxide-Semiconductor) memory, which maintains system settings such as boot sequence, system time, and hardware configurations.
+
+3. Boot Device Selection:
+   - Based on the boot sequence defined in the BIOS settings, the BIOS identifies the appropriate bootable device (e.g., hard drive, SSD, USB drive) to load the operating system from.
+
+4. Loading the Bootloader:
+   - The BIOS locates the Master Boot Record (MBR) on the selected boot device. The MBR contains the bootloader, a small program responsible for loading the operating system into memory. MBR (Usually located in the first sector, first head, first cylinder (cylinder 0, head 0, sector 1)) BIOS loads the bootloader to primary memory (eg:GRUB/LILO) 
+
+5. Executing the Bootloader:
+   - The bootloader loads the operating system's kernel into the system's RAM and transfers control to it.
+
+6. Operating System Initialization:
+   - The operating system initializes hardware components, loads necessary drivers, and starts system services.
+
+7. User Login:
+   - Once the operating system has initialized all components and services, it presents the user with a login screen or desktop environment, completing the boot process.
+
+Understanding this sequence is crucial for diagnosing and troubleshooting boot-related issues. 
+
+Below are detailed notes on **Interface Cards**, **Buses**, and **Firmware**, including their roles and how they interconnect within a computer system.
+
+---
+
+### **1. Interface Cards**
+
+**Definition and Purpose:**
+- **Interface Cards**, often known as expansion cards or adapter cards, are hardware components that plug into expansion slots on the motherboard.
+- They provide additional functionality by allowing the computer to interface with external devices or enhance system capabilities.
+  
+**Common Types:**
+- **Graphics Cards (GPUs):** Accelerate rendering of images and video.
+- **Sound Cards:** Process audio data and output sound.
+- **Network Interface Cards (NICs):** Enable wired or wireless networking.
+- **Storage Controller Cards:** Manage additional storage devices beyond what the motherboard supports.
+- **USB, FireWire, or other connectivity cards:** Add extra ports or specialized interfaces.
+
+**Operation:**
+- These cards communicate with the CPU and system memory via the system’s buses.
+- They often come with their own dedicated memory or processors (e.g., GPU cores) to handle specific tasks, offloading work from the main CPU.
+
+---
+
+### **2. Buses**
+
+**Definition and Function:**
+- A **bus** is a communication pathway that transfers data among various components within a computer.
+- It serves as the electrical or logical channel through which data, addresses, and control signals are transmitted.
+
+**Types of Buses:**
+- **System Bus:** Connects the CPU, memory, and primary input/output devices. It is divided into:
+  - **Data Bus:** Carries the actual data.
+  - **Address Bus:** Carries the memory addresses where data is stored or retrieved.
+  - **Control Bus:** Carries control signals that coordinate the operations.
+- **Expansion Bus:** Provides a connection between the motherboard and peripheral interface cards. Common examples include:
+  - **PCI (Peripheral Component Interconnect):** A standard bus for adding expansion cards.
+  - **PCI Express (PCIe):** A high-speed version that offers improved performance for modern devices.
+- **External Buses:** Connect external devices such as USB, Thunderbolt, or FireWire.
+
+**Key Characteristics:**
+- **Bandwidth:** Determines how much data can be transferred at one time.
+- **Latency:** The delay before data transfer begins.
+- **Topology:** Refers to how components are interconnected (e.g., point-to-point, shared bus).
+
+---
+
+### **3. Firmware**
+
+**Definition and Role:**
+- **Firmware** is a specialized form of software that is permanently or semi-permanently embedded into a hardware device.
+- It provides the low-level control and instructions for how a device communicates with other hardware and performs its basic functions.
+
+**Common Examples:**
+- **BIOS/UEFI:** Firmware in personal computers that initializes hardware during the boot process, performs the POST (Power-On Self-Test), and loads the operating system.
+- **Embedded Firmware:** Found in many devices (routers, printers, IoT devices), enabling them to operate with minimal user intervention.
+- **Device-specific Firmware:** Such as that on network cards or storage controllers, which optimizes performance and manages hardware-specific tasks.
+
+**Characteristics:**
+- **Non-volatile Storage:** Typically stored in ROM or flash memory, so firmware remains intact even when power is removed.
+- **Updateability:** Modern firmware, especially in consumer electronics, is often updatable via software tools, allowing manufacturers to fix bugs or add features.
+- **Critical Function:** It provides the essential instructions that allow hardware to initialize and interact with higher-level software.
+
+---
+
+### **Interrelation**
+
+- **Interface Cards and Buses:** Interface cards rely on buses to communicate with the motherboard and other system components. For example, a graphics card uses a PCIe bus to transfer high-speed data between its dedicated memory and the CPU.
+- **Firmware's Role:** Firmware, such as the BIOS/UEFI, initializes hardware (including interface cards) during the boot process. It sets up the buses, configures device parameters, and ensures that all components are ready for use by the operating system.
+
+---
+
+These components—interface cards, buses, and firmware—work together to provide a robust and flexible computer architecture that can be expanded and updated over time. Understanding their functions is essential for both troubleshooting hardware issues and designing systems that meet specific performance and connectivity requirements.
+

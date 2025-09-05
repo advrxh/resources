@@ -1,38 +1,30 @@
-# 📚 Academic Materials 2024-25 (Year I)
+# 📚 Academic Materials 2024 Scheme (Year I)
 
-## Top-Level Files
+## Common Year 1 Resources
 - [Academic_Calendar_2024-25(Year-I).pdf](./Academic_Calendar_2024-25(Year-I).pdf)
 - [Academic_Syllabus_2024-25(Year-I).pdf](./Academic_Syllabus_2024-25(Year-I).pdf)
 
----
+## Semester - I
 
-## Semester 1
-- [sem_1_gradecard.pdf](./sem_1/sem_1_gradecard.pdf)
-- [sem_1_gradecard_updated.pdf](./sem_1/sem_1_gradecard_updated.pdf)
-- [TimeTable.pdf](./sem_1/TimeTable.pdf)
-
-### Basic EE Engg GXEST104
-- [diagrams-exp-1.pdf](./sem_1/Basic_EE_Engg_GXEST104/diagrams-exp-1.pdf)
+### Basic Electrical and Electronics or Introduction to Electrical and Electronics (GXEST104)
 - [Electronics WS Posters.pdf](./sem_1/Basic_EE_Engg_GXEST104/Electronics%20WS%20Posters.pdf)
 - [GXESL106 EE Ws MANUAL2.pdf](./sem_1/Basic_EE_Engg_GXEST104/GXESL106%20EE%20Ws%20MANUAL2.pdf)
-- [GXEST104 IEC Module IV  ktuspecial.in.pdf](./sem_1/Basic_EE_Engg_GXEST104/GXEST104%20IEC%20Module%20IV%20%20ktuspecial.in.pdf)
-- [MODULE IV (1).pdf](./sem_1/Basic_EE_Engg_GXEST104/MODULE%20IV%20(1).pdf)
 - [N.N. Bhargava- Basic Electronics and linear circuits.pdf](./sem_1/Basic_EE_Engg_GXEST104/N.N.%20Bhargava-%20Basic%20Electronics%20and%20linear%20circuits.pdf)
 
-### Engg Chem GXCYT122
+### Engg Chem (GXCYT122)
 - [Engineering Chemistry- Jain & Jain.pdf](./sem_1/Engg_Chem_GXCYT122/Engineering%20Chemistry-%20Jain%20&%20Jain.pdf)
 - [Module 1 Electrochemistry and Corrosion (1) (1).pdf](./sem_1/Engg_Chem_GXCYT122/Module%201%20Electrochemistry%20and%20Corrosion%20(1)%20(1).pdf)
 - [Notes -Materials for electronic applications.pdf](./sem_1/Engg_Chem_GXCYT122/Notes%20-Materials%20for%20electronic%20applications.pdf)
 
-### Engg Graphics GMEST103
+### Engg Graphics (GMEST103)
 - [ENGINEERING DRAWING BY N.D BHATT.pdf](./sem_1/Engg_Graphics_GMEST103/ENGINEERING%20DRAWING%20BY%20N.D%20BHATT.pdf)
 - [Engineering Graphics for 1st Years.pptx](./sem_1/Engg_Graphics_GMEST103/Engineering%20Graphics%20for%201st%20Years.pptx)
 
-### Maths GYMAT101
+### Maths (GYMAT101)
 - [Text_1_Advanced_Engineering_Mathematics_by_Erwin_Kreyszig.pdf](./sem_1/Maths_GYMAT101/Text_1_Advanced_Engineering_Mathematics_by_Erwin_Kreyszig.pdf)
 - [Text_2_Calculus 10th edition H. Anton.pdf](./sem_1/Maths_GYMAT101/Text_2_Calculus%2010th%20edition%20H.%20Anton.pdf)
 
-### Python UCEST105
+### Python (UCEST105)
 - [Algorithmic Thinking with Python-KTU 2024.pdf](./sem_1/Python_UCEST105/Algorithmic%20Thinking%20with%20Python-KTU%202024.pdf)
 - [Module-1-I.pdf](./sem_1/Python_UCEST105/Module-1-I.pdf)
 - [Module-1-II.pdf](./sem_1/Python_UCEST105/Module-1-II.pdf)
@@ -44,15 +36,7 @@
 - [theory-module-2-2.pdf](./sem_1/Python_UCEST105/theory-module-2-2.pdf)
 - [theory-module-2.pdf](./sem_1/Python_UCEST105/theory-module-2.pdf)
 
----
-
-## Semester 2
-- [Adobe Scan Feb 16, 2025.pdf](./sem_2/Adobe%20Scan%20Feb%2016,%202025.pdf)
-- [DOC-20250109-WA0001..pdf](./sem_2/DOC-20250109-WA0001..pdf)
-- [IT WORKSHOP-LABMANUAL(SEMESTER 2).pdf](./sem_2/IT%20WORKSHOP-LABMANUAL(SEMESTER%202).pdf)
-- [S2 GROUP B.pdf](./sem_2/S2%20GROUP%20B.pdf)
-- [TIME TABLE EVEN -Dec-2024 - 2025-EVEN TT PRINT-4.pdf](./sem_2/TIME%20TABLE%20EVEN%20-Dec-2024%20-%202025-EVEN%20TT%20PRINT-4.pdf)
-- [TIME TABLE EVEN -Dec-2024 - STAFF CODE-2.pdf](./sem_2/TIME%20TABLE%20EVEN%20-Dec-2024%20-%20STAFF%20CODE-2.pdf)
+## Semester - 2
 
 ### C GXEST204
 - [1.pdf](./sem_2/C_GXEST204/1.pdf)
@@ -62,13 +46,8 @@
 - [4.2.pdf](./sem_2/C_GXEST204/4.2.pdf)
 - [Arrays - Single dimensional arrays, Defining an ar.pdf](./sem_2/C_GXEST204/Arrays%20-%20Single%20dimensional%20arrays,%20Defining%20an%20ar.pdf)
 - [C Fundamentals - Character Set, Constants, Identif.pdf](./sem_2/C_GXEST204/C%20Fundamentals%20-%20Character%20Set,%20Constants,%20Identif.pdf)
-- [DocScanner 24-Feb-2025 12-12 AM.pdf](./sem_2/C_GXEST204/DocScanner%2024-Feb-2025%2012-12%20AM.pdf)
-- [dynamic memmory allocation.pdf](./sem_2/C_GXEST204/dynamic%20memmory%20allocation.pdf)
-- [ECB-boys.pdf](./sem_2/C_GXEST204/ECB-boys.pdf)
 - [Files- Different types of files in C, Opening &amp.pdf](./sem_2/C_GXEST204/Files-%20Different%20types%20of%20files%20in%20C,%20Opening%20&%20amp.pdf)
 - [Functions - Function definition, Function call, Fu.pdf](./sem_2/C_GXEST204/Functions%20-%20Function%20definition,%20Function%20call,%20Fu.pdf)
-- [give example for scale factor for basic data types.pdf](./sem_2/C_GXEST204/give%20example%20for%20scale%20factor%20for%20basic%20data%20types.pdf)
-- [give me syntax of the mentioned functions.pdf](./sem_2/C_GXEST204/give%20me%20syntax%20of%20the%20mentioned%20functions.pdf)
 - [let_us_c.pdf](./sem_2/C_GXEST204/let_us_c.pdf)
 - [matrix operations.pdf](./sem_2/C_GXEST204/matrix%20operations.pdf)
 - [mod-1-1.pdf](./sem_2/C_GXEST204/mod-1-1.pdf)
@@ -84,9 +63,9 @@
 - [Strings - Declaring a string variable, Reading and.pdf](./sem_2/C_GXEST204/Strings%20-%20Declaring%20a%20string%20variable,%20Reading%20and.pdf)
 - [Structures - Defining a Structure variable, Access.pdf](./sem_2/C_GXEST204/Structures%20-%20Defining%20a%20Structure%20variable,%20Access.pdf)
 - [syllabus.pdf](./sem_2/C_GXEST204/syllabus.pdf)
-- [tell me all the various ways to define and initial.pdf](./sem_2/C_GXEST204/tell%20me%20all%20the%20various%20ways%20to%20define%20and%20initial.pdf)
+- [variable_definition_and_intialization.pdf](./sem_2/C_GXEST204/tell%20me%20all%20the%20various%20ways%20to%20define%20and%20initial.pdf)
 
-### EEE IPR UCEST206
+### EEE IPR (UCEST206)
 - [1.1 Engg Entrepreneurship and IPR.pdf](./sem_2/EEE_IPR_UCEST206/1.1%20Engg%20Entrepreneurship%20and%20IPR.pdf)
 - [1.2 Engg Entrepreneurship and IPR.pdf](./sem_2/EEE_IPR_UCEST206/1.2%20Engg%20Entrepreneurship%20and%20IPR.pdf)
 - [1.3 Engg Entrepreneurship and IPR.pdf](./sem_2/EEE_IPR_UCEST206/1.3%20Engg%20Entrepreneurship%20and%20IPR.pdf)
@@ -102,8 +81,7 @@
 - [module_4_short_notes.pdf](./sem_2/EEE_IPR_UCEST206/module_4_short_notes.pdf)
 - [syllabus.pdf](./sem_2/EEE_IPR_UCEST206/syllabus.pdf)
 
-### FOC GXEST203
-- [.notes-series.md.swp](./sem_2/FOC_GXEST203/.notes-series.md.swp)
+### FOC (GXEST203)
 - [Comprehensive Web Design Study Plan_ HTML, CSS, an.pdf](./sem_2/FOC_GXEST203/Comprehensive%20Web%20Design%20Study%20Plan_%20HTML,%20CSS,%20an.pdf)
 - [FOC full notes.pdf](./sem_2/FOC_GXEST203/FOC%20full%20notes.pdf)
 - [FOC MODULE 2_modified.pptx.pdf](./sem_2/FOC_GXEST203/FOC%20MODULE%202_modified.pptx.pdf)
@@ -116,38 +94,7 @@
 - [The Elements of Computing Systems.pdf](./sem_2/FOC_GXEST203/The%20Elements%20of%20Computing%20Systems.pdf)
 - [vonneuman-harvard.png](./sem_2/FOC_GXEST203/vonneuman-harvard.png)
 
-### ITWS GXESL208
-- [syllabus.pdf](./sem_2/ITWS_GXESL208/syllabus.pdf)
-
-### LSPC UCHUT128
-- [LSPC_Front_Page.pdf](./sem_2/LSPC_UCHUT128/LSPC_Front_Page.pdf)
-- [Minutes of the Meeting.docx](./sem_2/LSPC_UCHUT128/Minutes%20of%20the%20Meeting.docx)
-- [Minutes of the Meeting.pdf](./sem_2/LSPC_UCHUT128/Minutes%20of%20the%20Meeting.pdf)
-- [Role Play Script.pdf](./sem_2/LSPC_UCHUT128/Role%20Play%20Script.pdf)
-- [syllabus.pdf](./sem_2/LSPC_UCHUT128/syllabus.pdf)
-
-### MATHS GYMAT201
-- [syllabus.pdf](./sem_2/MATHS_GYMAT201/syllabus.pdf)
-
-### NT PCECT205
-- [drive-download-20250304T160016Z-001.zip](./sem_2/NT_PCECT205/drive-download-20250304T160016Z-001.zip)
-- [syllabus.pdf](./sem_2/NT_PCECT205/syllabus.pdf)
-
-#### NT PCECT205 - text
-- [A Sudhakar & Shyammohan S Palli.pdf](./sem_2/NT_PCECT205/text/A%20Sudhakar%20&%20Shyammohan%20S%20Palli.pdf)
-- [Millmans theorem.pdf](./sem_2/NT_PCECT205/text/Millmans%20theorem.pdf)
-- [Network Analysis And Synthesis by Singh Ravish Singh.pdf](./sem_2/NT_PCECT205/text/Network%20Analysis%20And%20Synthesis%20by%20Singh%20Ravish%20Singh.pdf)
-- [NT - Module 2.pdf](./sem_2/NT_PCECT205/text/NT%20-%20Module%202.pdf)
-- [NT - Module 3.pdf](./sem_2/NT_PCECT205/text/NT%20-%20Module%203.pdf)
-- [NT - Module 4.pdf](./sem_2/NT_PCECT205/text/NT%20-%20Module%204.pdf)
-- [NT - Module 5.pdf](./sem_2/NT_PCECT205/text/NT%20-%20Module%205.pdf)
-- [NT-Module 1.pdf](./sem_2/NT_PCECT205/text/NT-Module%201.pdf)
-
-### PHYSICS GBPHT121
-- [CRO.pdf](./sem_2/PHYSICS_GBPHT121/CRO.pdf)
-- [Exp 1, Rectifiers (1).pdf](./sem_2/PHYSICS_GBPHT121/Exp%201,%20Rectifiers%20(1).pdf)
-- [EXP 2 - LED CHARACTERISTICS.pdf](./sem_2/PHYSICS_GBPHT121/EXP%202%20-%20LED%20CHARACTERISTICS.pdf)
-- [Exp 3 Diode and Zenor diode characteristics.pdf](./sem_2/PHYSICS_GBPHT121/Exp%203%20Diode%20and%20Zenor%20diode%20characteristics.pdf)
+### PHYSICS (GBPHT121)
 - [S. Mani Naidu - Engineering Physics (2014, Pearson Education) - libgen.li.pdf](./sem_2/PHYSICS_GBPHT121/S.%20Mani%20Naidu%20-%20Engineering%20Physics%20(2014,%20Pearson%20Education)%20-%20libgen.li.pdf)
 - [syllabus.pdf](./sem_2/PHYSICS_GBPHT121/syllabus.pdf)
 
